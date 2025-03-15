@@ -26,7 +26,7 @@ f(n) = Estimated total path cost through n to goal
 g(n) = Actual cost from the starting point to n
 h(n) = Estimated path cost from n to goal
 ```
-*Note that h(n) is an admissible heuristic, meaning that h(n) never overestimates the actual total path cost. h(n) is always smaller or equal to h*(n), the true cost from n to goal.
+_Note that h(n) is an admissible heuristic, meaning that h(n) never overestimates the actual total path cost. h(n) is always smaller or equal to h*(n), the true cost from n to goal._
 
 ### Hill Climbing Search
 Hill climbing search chooses the best neighbour state in its neighbourhood to expand. This process is repeated until a local maximum(solution) is found. Stochastic hill climbing and random restart hill climbing are implented in this algorithm.
