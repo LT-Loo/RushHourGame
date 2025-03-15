@@ -59,19 +59,33 @@ For each problem, these will be printed on the console:
 ### Output Example
 ```
 Problem 9 (Beginner)
-Initial State: .ABBCC.A.DEEXX.DOFPQQQOFP.G.OHP.G..H
+Initial State: AA...OP.Q.OPXXQ.OP..Q..B...CCB.RRR.
 +-------------+
-| . A B B C C |
-| . A . D E E |
-| X X . D O F  ==>
-| P Q Q Q O F |
-| P . G . O H |
-| P . G . . H |
+| A A . . . O |
+| P . . Q . O |
+| P X X Q . O  ==>
+| P . . Q . . |
+| B . . . C C |
+| B . R R R . |
 +-------------+
-Given Solution: OD1 XR1 PU3 QL1 DD2 XR2 AD1 EL1 BL1 CL1 FU2 XR3
-A*
-Solution Found: OD1 XR1 PU3 QL1 DD2 EL1 XR1 AD1 BL1 CL1 FU2 XR2 
-CPU Time: 502.23 Path Cost: 12 Diff: 0 Explored: 20687
+Given Solution: CL3 OD3 AR1 PU1 RL2 QD2 XR5
+BFS
+Solution Found: AR1 PU1 BU1 CL3 OD3 RL2 QD2 XR3
+CPU Time: 11.93 Path Cost: 8 Diff: 0 Explored: 982
+IDDLS
+.
+.
+.
+
+Final State Board:
++-------------+
+| P . . . A A |
+| P . . . . . |
+| P . . . X X  ==>
+| B . . Q . O |
+| B C C Q . O |
+| R R R Q . O |
++-------------+
 ```
 
 ## Developer
