@@ -26,7 +26,7 @@ f(n) = Estimated total path cost through n to goal
 g(n) = Actual cost from the starting point to n
 h(n) = Estimated path cost from n to goal
 ```
-Note that h(n) is an admissible heuristic, meaning that h(n) never overestimates the actual total path cost. h(n) is always smaller or equal to h*(n), the true cost from n to goal.
+*Note that h(n) is an admissible heuristic, meaning that h(n) never overestimates the actual total path cost. h(n) is always smaller or equal to h*(n), the true cost from n to goal.*
 
 ### Hill Climbing Search
 Hill climbing search chooses the best neighbour state in its neighbourhood to expand. This process is repeated until a local maximum(solution) is found. Stochastic hill climbing and random restart hill climbing are implented in this algorithm.
@@ -43,20 +43,21 @@ For each problem, these will be printed on the console:
 3. Game board of initial state
 4. Given solution
 5. For BFS, IDDLS and A* search,
-   - Solution found
-   - Execution time
-   - Path cost(Depth)
-   - Difference of length between given solution and found solution
-   - Number of explored nodes
+    - Solution found
+    - Execution time
+    - Path cost(Depth)
+    - Difference of length between given solution and found solution
+    - Number of explored nodes
 6. For hill climbing search,
-   - Local solution or actual solution
-   - Execution time
-   - Path cost(Depth)
-   - Difference of length between given solution and found solution
-   - Number of explored node
-   - Game board of final state
+    - Local solution or actual solution
+    - Execution time
+    - Path cost(Depth)
+    - Difference of length between given solution and found solution
+    - Number of explored node
+    - Game board of final state
 
-### Example
+### Output Example
+```
 Problem 9 (Beginner)
 Initial State: .ABBCC.A.DEEXX.DOFPQQQOFP.G.OHP.G..H
 +-------------+
@@ -71,8 +72,8 @@ Given Solution: OD1 XR1 PU3 QL1 DD2 XR2 AD1 EL1 BL1 CL1 FU2 XR3
 A*
 Solution Found: OD1 XR1 PU3 QL1 DD2 EL1 XR1 AD1 BL1 CL1 FU2 XR2 
 CPU Time: 502.23 Path Cost: 12 Diff: 0 Explored: 20687
-
+```
 
 ## Developer
-Loo
+Loo<br>
 loo.workspace@gmail.com
